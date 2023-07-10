@@ -317,7 +317,7 @@ export const colorMappingData = [
     { x: 'Nov', y: 15.5 },
     { x: 'Dec', y: 9.9 },
   ],
-  ['#FFFF99'],
+  ['#fffF99'],
   ['#FFA500'],
   ['#FF4040'],
 ];
@@ -501,21 +501,9 @@ export const links = [
     title: 'Apps',
     links: [
       {
-        name: 'calendar',
-        icon: <AiOutlineCalendar />,
-      },
-      {
         name: 'kanban',
         icon: <BsKanban />,
-      },
-      {
-        name: 'editor',
-        icon: <FiEdit />,
-      },
-      {
-        name: 'color-picker',
-        icon: <BiColorFill />,
-      },
+      }
     ],
   },
   {
@@ -537,23 +525,7 @@ export const links = [
       {
         name: 'pie',
         icon: <FiPieChart />,
-      },
-      {
-        name: 'financial',
-        icon: <RiStockLine />,
-      },
-      {
-        name: 'color-mapping',
-        icon: <BsBarChart />,
-      },
-      {
-        name: 'pyramid',
-        icon: <GiLouvrePyramid />,
-      },
-      {
-        name: 'stacked',
-        icon: <AiOutlineBarChart />,
-      },
+      }
     ],
   },
 ];
